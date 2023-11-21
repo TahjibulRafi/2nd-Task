@@ -1,0 +1,32 @@
+
+mat-toolbar {
+  background: #C38D5F; 
+  color: #331C0E; 
+
+  
+  span {
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 1px;
+  }
+
+  .nav {
+    flex: 2;
+  }
+
+  button {
+    color:  #331C0E;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0 30px;
+    transition: background-color .5s ease-in;
+
+    &:hover {
+      background-color:#FFF190; 
+    }
+  }
+
+  button.router-link-active {
+    background-color: #C38D5F; 
+  }
+}

@@ -1,0 +1,11 @@
+<!-- app.component.html -->
+<div>
+  <h1>Game of Thrones Quotes App</h1>
+  <form (submit)="onSubmit()">
+    <label for="quoteCount">Number of Quotes:</label>
+    <input type="number" id="quoteCount" name="quoteCount" [(ngModel)]="quoteCount" required />
+    <button type="submit">Get Quotes</button>
+  </form>
+</div>
+
+<app-quote-list></app-quote-list>

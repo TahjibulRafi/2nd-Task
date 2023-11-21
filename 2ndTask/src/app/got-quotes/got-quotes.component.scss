@@ -1,0 +1,43 @@
+
+.card {
+    margin: 50px;
+  }
+  
+  .mat-card {
+    width: 400px; 
+    height: 300px;
+    background-color: #bca48c;
+    box-shadow: 0 6px 12px #4f2424;
+    transition: transform 0.3s ease-in-out, box-shadow 0.5s ease-in;
+    //background-image: url('/assets/gt2.jpg');
+    //background-size: 100% 100%;
+  
+    &:hover {
+      transform: scale(1.05);
+      box-shadow: 0 6px 20px #69393a; 
+    }
+  }
+  
+  .mat-card-content {
+    padding: 50px; 
+    background-image: url('/assets/gt5.jpg');
+    background-size: 110% 110%;
+  
+  }
+  
+  .quote {
+    font-size: 18px; 
+    font-weight: bold;
+    color: #fcc48c;
+    margin-bottom: 12px;
+  }
+  
+  .field-name {
+    font-size: 15px; 
+
+    color:#fcc48c;
+
+    margin-bottom: 10px;
+  }
+  
+  
